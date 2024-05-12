@@ -1,0 +1,160 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.logo img {
+    max-height: 75px;
+}
+
+
+/* Teaser Section Styles */
+.teaser {
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.teaser h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.teaser p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.teaser button {
+    background-color: #ffcc00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Dark Section Styles */
+.dark-section {
+    background-color: #333;
+    color: #fff;
+    padding: 100px 0;
+}
+
+
+
+/* Gamemode Styles */
+.gamemode {
+    margin-bottom: 40px;
+    max-width: 300px; /* Limiting the maximum width */
+    margin: 0 auto; /* Centering the gamemode div */
+}
+
+.gamemode img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gamemode h3 {
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.gamemode p {
+    font-size: 16px;
+}
+
+/* Link Styles */
+.gamemode a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Staff Members Container */
+.staff-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px; /* Adding some top margin for spacing */
+}
+
+/* Staff Member Styles */
+.staff-member {
+    text-align: center;
+    flex-basis: calc(33.33% - 20px); /* Adjusting the width to fit three items per row with some margin */
+    margin: 10px; /* Adding margin around each staff member */
+}
+
+.staff-member img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.staff-member h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #ffcc00; /* Adding color */
+}
+
+.staff-member p {
+    font-size: 16px;
+    margin: 0;
+    color: #999; /* Adding color */
+}
+
+/* Link Styles (remove blue underline)*/
+
+.staff-member a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
